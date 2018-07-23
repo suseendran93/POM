@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test-suite">
+	<test name="POM-Framework">
+
+		<classes>
+			<class name="org.pom.practice.POMFrameWork.LoginPageTest" />
+
+
+		</classes>
+	</test>
+</suite>
+	
