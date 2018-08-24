@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Test-suite]" parallel="methods">
+  <test name="Chrome2(failed)" parallel="methods">
     <classes>
-      <class name="org.pom.practice.POMFrameWork.LoginPageTest">
+      <class name="org.pom.practice.POMFrameWork.ParallelTest">
         <methods>
-          <include name="LoginSuccess"/>
-          <include name="setup"/>
+          <include name="sessionOne"/>
         </methods>
-      </class> <!-- org.pom.practice.POMFrameWork.LoginPageTest -->
+      </class> <!-- org.pom.practice.POMFrameWork.ParallelTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Chrome2(failed) -->
+</suite> <!-- Failed suite [Test-suite] -->
